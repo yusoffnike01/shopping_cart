@@ -6,7 +6,7 @@
 <div class="col-md-7">
 <div class="row">
 
-
+rewr
   <div :key="product.id" class="col-md-6" v-for="product in products">
     <product :isIncart=isIncart(product) v-on:add-to-cart="addcart(product)" :product="product"></product>
   </div>
